@@ -1,0 +1,217 @@
+body{
+    height: 3000px;
+}
+*{
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+}
+a:hover{
+    background-color: #009688;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 10px;
+}
+#team{
+    padding-top: 20px;
+}
+.logo{
+    background-color: #009688;
+}
+.parent-link{
+    background-color: rgb(20, 19, 19);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 360px;
+    visibility: hidden;
+
+}
+.drob:hover + .parent-link{
+    visibility: visible;
+ }
+ /* img */
+ .min-img{
+     width: 100%;
+     height: 350px;
+ }
+ .learn{
+     color: white;
+     font-size: 25px;
+     border: 2px solid red;
+     position: relative;
+     bottom: 90px;
+     left: 50px;
+     background-color: black;
+     color: white;
+ }
+ .learn:hover{
+     background-color: #009688;
+ }
+ .our-team , .meet{
+     text-align: center;
+ }
+ .our-team{
+     margin-bottom: 14px;
+ }
+ .anater{
+     border-radius: 50%;
+     width: 200px;
+ }
+ .jone{
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
+ .division{
+     text-align: center;
+     margin-top: 40px;
+ }
+ .flex{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .gray{
+     height: 540px;
+     background-color: #333333;
+     margin-top: 60px;
+     padding-top: 40px;
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .white{
+     background-color: white;
+     height: 360px;
+     width: 23%;
+ }
+
+ .snow{
+     height: 100%;
+     width: 100%;
+ }
+ .our-work{
+     width: 25%;
+     color: white;
+     line-height: 25px;
+ }
+ .white h3 .white p{
+     padding-left: 12px;
+ }
+ .our-work h2{
+     margin-bottom: 20px;
+ }
+ .our-work p{
+     margin-left: 7px;
+ }
+
+ /* pricing */
+ .pricing{
+     text-align: center;
+     margin-top: 90px;
+ }
+.basic{
+    margin-top: 60px;
+    width: 30%;
+    border: 1px solid gray;
+}
+.basic:hover{
+    box-shadow: 5px 5px 16px gray;
+}
+.basic .signup{
+    margin: 27px;
+ }
+.basic h4{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+.basic p{
+    border: 1px solid gray;
+    padding: 17px 0;
+}
+.spangb{
+    font-weight: bold;
+}
+.signup{
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+.pricing .parent-of-basic{
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    margin-top: 100px;
+    background-color: gray;
+    width: 290px;
+    margin: 23px;
+    /* display: flex;
+    justify-self: right; */
+}
+.contact-us h1{
+    border-bottom: 4px solid teal;
+    display: inline-block;
+}
+/* contact us */
+.contact-us{
+    width: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.real-from{
+    background-color: rgb(255, 246, 246);
+    width: 105%;
+    box-shadow: 5px 5px 25px gray;
+    padding-left: 19px;
+    padding-top: 20px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgb(169, 160, 160);
+    height: 30px;
+    width: 100%;
+}
+.checkbox{
+    width: 20px;
+}
+.bnbn{
+    position: relative;
+    bottom: 10px;
+    left: 19px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    float: right;
+}
+/* ljdkckj */
+.map{
+    width: 100%;
+    min-width: 500px;
+}
